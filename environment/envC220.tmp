@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://n30yw7mlnrlb"]
+
+[ext_resource type="PackedScene" uid="uid://vu55b6ociwsn" path="res://environment/floor.tscn" id="1_ampef"]
+[ext_resource type="PackedScene" uid="uid://bl1tpkisvtja8" path="res://player_soldier/player_soldier.tscn" id="3_owkua"]
+[ext_resource type="Script" path="res://player_soldier/player_soldier.gd" id="4_tr3ly"]
+
+[node name="environment" type="Node2D"]
+
+[node name="floor" parent="." instance=ExtResource("1_ampef")]
+
+[node name="player_soldier" parent="." instance=ExtResource("3_owkua")]
+position = Vector2(-18, -173)
+script = ExtResource("4_tr3ly")
+gravity_scale = null
+speed = null
+acceleration = null
+friction = null
+air_acceleration = null
+jump_force = null
+air_friction = null

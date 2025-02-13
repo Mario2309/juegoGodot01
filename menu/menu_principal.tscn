@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=3 uid="uid://bm1pfttqgkdxt"]
+
+[ext_resource type="Script" path="res://menu/menu_principal.gd" id="1_5o1d3"]
+[ext_resource type="AudioStream" uid="uid://cubjhawbbnnme" path="res://menu/audio/naruto.mp3" id="1_wgabh"]
+[ext_resource type="Texture2D" uid="uid://baiqemy7adtmx" path="res://menu/img/fondo.jpg" id="2_yflnu"]
+[ext_resource type="FontFile" uid="uid://b64ixtq0vhiog" path="res://menu/fuentes/fuente.otf" id="4_5dvcu"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5m1io"]
+font_size = 32
+
+[sub_resource type="LabelSettings" id="LabelSettings_0t5sq"]
+font = ExtResource("4_5dvcu")
+font_size = 100
+outline_size = 20
+outline_color = Color(0, 0, 0, 1)
+
+[node name="MenuPrincipal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5o1d3")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_wgabh")
+autoplay = true
+parameters/looping = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 2)
+texture = ExtResource("2_yflnu")
+centered = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 107.0
+offset_top = 487.0
+offset_right = 251.0
+offset_bottom = 602.0
+
+[node name="lbl_opciones" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Opciones"
+label_settings = SubResource("LabelSettings_5m1io")
+
+[node name="btn_start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Start"
+
+[node name="btn_exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Exit
+"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 93.0
+offset_top = 348.0
+offset_right = 357.0
+offset_bottom = 479.0
+text = "Narute
+"
+label_settings = SubResource("LabelSettings_0t5sq")
+
+[connection signal="pressed" from="VBoxContainer/btn_start" to="." method="_on_btn_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/btn_exit" to="." method="_on_btn_exit_pressed"]

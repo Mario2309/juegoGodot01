@@ -43,7 +43,7 @@ func update_animation(input_axis):
 		# velocidad de la animación será dependiente de la velocidad
 		ani_player.speed_scale = velocity.length()/100
 		ani_player.flip_h = (input_axis<0)
-		ani_player.play("run")
+		ani_player.play("walk")
 	elif not is_on_floor():
 		ani_player.play("jump")
 	else:
@@ -52,7 +52,7 @@ func update_animation(input_axis):
 
 func _input(event: InputEvent):
 	if Input.is_action_pressed("disparar_02"):
-			ani_player.play("shot_01")
+			ani_player.play("attack")
 
 func _physics_process(delta: float) -> void:
 	var input_axis = Input.get_axis("mover_izquierda","mover_derecha")

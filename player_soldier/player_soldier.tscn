@@ -475,7 +475,8 @@ metadata/_edit_group_ = true
 [node name="ani_player_soldier" type="AnimatedSprite2D" parent="."]
 position = Vector2(65, 69)
 sprite_frames = SubResource("SpriteFrames_71tdi")
-animation = &"walk"
+animation = &"attack"
+frame_progress = 0.948547
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(62, 100)

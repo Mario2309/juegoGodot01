@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1htg84wp47xh"
-path="res://.godot/imported/Walk.png-8e2304eb080deb6c45576bd0e6cdb689.ctex"
+path="res://.godot/imported/Walk.png-a7b6e554eff503f5c9595596feba487f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player_soldier/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Walk.png"
-dest_files=["res://.godot/imported/Walk.png-8e2304eb080deb6c45576bd0e6cdb689.ctex"]
+source_file="res://player_soldier/img/Walk.png"
+dest_files=["res://.godot/imported/Walk.png-a7b6e554eff503f5c9595596feba487f.ctex"]
 
 [params]
 

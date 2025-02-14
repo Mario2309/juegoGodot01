@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vds30mp1bwml"
-path="res://.godot/imported/Grenade.png-f28d1648dbfcc03747d8275381d30fd0.ctex"
+uid="uid://cktjgtnv1mxg3"
+path="res://.godot/imported/Idle.png-3d001c4a02245c5baafea7d7be870385.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player_soldier/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Grenade.png"
-dest_files=["res://.godot/imported/Grenade.png-f28d1648dbfcc03747d8275381d30fd0.ctex"]
+source_file="res://player_soldier/img/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-3d001c4a02245c5baafea7d7be870385.ctex"]
 
 [params]
 

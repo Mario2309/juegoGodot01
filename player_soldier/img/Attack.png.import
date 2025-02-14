@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwqkvmtxs8sqh"
-path="res://.godot/imported/Recharge.png-3a3e063c8c668c63d81c3f4a9f071a44.ctex"
+uid="uid://baptraho58emr"
+path="res://.godot/imported/Attack.png-68e5b5b0932be631d163afdbbb0a904c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player_soldier/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/Soldier_1/Recharge.png"
-dest_files=["res://.godot/imported/Recharge.png-3a3e063c8c668c63d81c3f4a9f071a44.ctex"]
+source_file="res://player_soldier/img/Attack.png"
+dest_files=["res://.godot/imported/Attack.png-68e5b5b0932be631d163afdbbb0a904c.ctex"]
 
 [params]
 
